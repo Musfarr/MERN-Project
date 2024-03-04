@@ -5,6 +5,7 @@ import Login from './pages/login';
 import Signup from './pages/signup';
 import Header from './common/header';
 import Footer from './common/footer';
+import Test from './pages/test';
 
 function App() {
   return (
@@ -12,14 +13,15 @@ function App() {
 <>
 
 <Router>
-  <div className='container' >
-    <Header />
+  <div className='containe' >
+    {/* <Header /> */}
   <Routes>
     <Route path = '/' element = {<Home/>}/>
     <Route path = '/login' element = {<Login/>}/>
     <Route path = '/signup' element = {<Signup/>}/>
+    <Route path = '/test' element={<Test/>} />
   </Routes>
-  <Footer/>
+  {/* <Footer/> */}
   </div>
 </Router>
 

@@ -5,6 +5,7 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import './css/style.css'
 // import 'uikit/dist/css/uikit.min.css';
 
 
