@@ -194,6 +194,13 @@ h3 {
 
 
 
+.table,  th  ,td {
+
+border: 1px double black;
+}
+
+
+
 
 @keyframes spin {
   0% {

@@ -12,6 +12,7 @@ const Getgoals = asyncHandler(async( req , res) => {
     res.status(200).json(goal)
     })
 
+    
 const Postgoals = asyncHandler(async (req, res) => {
     if (!req.body.text) {
         res.status(400).json({ error: 'Text is required' });

@@ -6,6 +6,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './css/style.css'
+import './css/libraries.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import 'uikit/dist/css/uikit.min.css';
 
 

@@ -1,3 +1,4 @@
+const cors = require('cors')
 const express = require('express')
 const dotenv = require('dotenv').config()
 const connection = require('../backend/db/db')
@@ -12,9 +13,11 @@ connection()
 app.use(express.json())
 app.use(express.urlencoded({extended : false}))
 
+app.use(cors())
 
+
+app.use('/api/login/' , require('./routes/goalsroute'))
 app.use('/api/users/' , require('./routes/userroute'))
-app.use('/api/goals/' , require('./routes/goalsroute'))
 
 // error handler
 // app.use(errorhandler)

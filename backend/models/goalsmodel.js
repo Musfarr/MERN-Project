@@ -19,6 +19,6 @@ const goalmodel = mongoose.Schema({
     timestamps : true
 }
 )
-
+ 
 
 module.exports = mongoose.model("Goals" , goalmodel )
